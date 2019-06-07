@@ -16,7 +16,16 @@ mkdir ~/swift
 cd ~/swift
 git clone https://github.com/geocolumbus/swift-notes.git
 cd swift-notes
-swift build
+```
+
+To build
+```swift build```
+
+To test
+```swift test```
+
+To run
+```
 .build/debug/swift-notes
 ```
 
