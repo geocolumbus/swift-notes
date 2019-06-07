@@ -4,8 +4,7 @@ These are notes on the Swift programming language, implemented as a Swift comman
 
 ## Requirements
 
-* Mac Computer
-* XCode 10 with command line tools installed
+* SWIFT 5 CLI installed
 
 ## Usage
 
