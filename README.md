@@ -4,11 +4,16 @@ These are notes on the Swift programming language, implemented as a Swift comman
 
 ## Requirements
 
-* swift 5 language
+* Mac Computer
+* XCode 10 with command line tools installed
 
 ## Usage
 
+Install from the command line
+
 ```
+mkdir ~/swift
+cd ~/swift
 git clone https://github.com/geocolumbus/swift-notes.git
 cd swift-notes
 swift build
