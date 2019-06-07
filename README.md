@@ -1,6 +1,6 @@
 # swift-notes
 
-These are notes on the Swift programming language, implemented as a Swift command line Mac app.
+These are notes on the Swift programming language, implemented as a Swift command line app.
 
 ## Requirements
 
