@@ -4,24 +4,31 @@
 
 import Foundation
 
+class TypeExample {
+
+    func run() {
 // constant
-let c = 3
-print(c)
+        let c = 3
+        print(c)
 
 // variable
-var n = 2
-n = 1
-print(n, c)
+        var n = 2
+        n = 1
+        print(n, c)
 
 // explicit type specification
-let d: Double = 13.0
-print(d)
+        let d: Double = 13.0
+        print(d)
 
 // type conversion
-var l = 33
-var s = "George"
-var t = s + String(33)
-print(t)
+        let l = 33
+        let s = "George"
+        let t = s + String(l)
+        print(t)
 
 // templating
-var u = "George used to be \(l) years old and will be \(l + l)."
+        let u = "George used to be \(l) years old and will be \(l + l)."
+        print(u)
+    }
+
+}

@@ -26,7 +26,7 @@ final class swift_notesTests: XCTestCase {
         let data = pipe.fileHandleForReading.readDataToEndOfFile()
         let output = String(data: data, encoding: .utf8)
 
-        XCTAssertEqual(output, "Hello, world!\n")
+        XCTAssertEqual(output, "3\n1 3\n13.0\nGeorge33\nGeorge used to be 33 years old and will be 66.\n")
     }
 
     /// Returns path to the built products directory.
